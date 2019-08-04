@@ -1,6 +1,36 @@
+/* .container {
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+  width: 60%;
+  position: relative;
+  left: 25%;
+  border: 1px solid blue;
+} */
 
 .house-info {
-    display: flex;
-    justify-content: space-around;
-    border: 1px solid red;
-  }
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  /* border: 1px solid red; */
+  margin: 55px;
+  background-color: lightgrey;
+  color: black;
+}
+
+span {
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  font-size: 20px;
+  position: relative;
+  left: 1px;
+}
+
+img {
+    width: 50%;
+    height: auto;
+}

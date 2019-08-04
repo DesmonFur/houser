@@ -12,9 +12,10 @@ function App() {
         <header className="App-header">
           <Header />
         </header>
+
         <Switch>
           <Route exact path="/" component={Dashboard} />
-          <Route  path="/wizard" component={Wizard} />
+          <Route path="/wizard" component={Wizard} />
         </Switch>
       </div>
     </HashRouter>

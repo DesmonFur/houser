@@ -1,0 +1,263 @@
+.forms {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 25%;
+  /* border: 1px solid resd; */
+  height: 90vh;
+  width: 50%;
+  background-color: grey;
+}
+
+.add-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 35px;
+  text-transform: capitalize;
+  margin: 15px;
+}
+.cancel {
+  background-color: pink;
+  color: black;
+  font-size: 20px;
+  margin: 20px;
+  /* width: 40px; */
+  padding: 6px;
+}
+
+.space-inputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  display: block;
+  margin: 50px;
+}
+
+#name-input {
+  display: flex;
+  margin-left: 20%;
+  position: relative;
+  top: 40px;
+  font-weight: bold;
+  font-size: 20px;
+  left: 20px;
+}
+
+#name-title {
+  display: flex;
+  margin-left: 20%;
+  position: relative;
+  top: 9vh;
+  font-weight: bold;
+  font-size: 20px;
+  left: 20px;
+}
+
+#address-input {
+  display: flex;
+  margin-left: 20%;
+  position: relative;
+  top: 40px;
+  font-weight: bold;
+  font-size: 20px;
+  left: 20px;
+  width: 60%;
+}
+
+#address-title {
+  display: flex;
+  margin-left: 20%;
+  position: relative;
+  top: 90px;
+  font-weight: bold;
+  font-size: 20px;
+  left: 20px;
+}
+#city-input {
+  display: flex;
+  /* position: relative; */
+  /* top: 40px; */
+width: 25%;
+  
+}
+
+#city-title {
+  /* top: 40px; */
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  top: 2vh;
+  left: 5vw;
+}
+
+#state-title {
+  /* top: 40px; */
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  top: 2vh;
+  left: 5vw;
+}
+
+#zip-title {
+  /* top: 40px; */
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  top: 2vh;
+  left: 5vw;
+}
+
+
+#state-input {
+  width: 10%;
+}
+
+#zip-input{
+    width: 18%;
+}
+
+.last-row {
+ 
+  display: flex;
+  margin-left: 10%;
+  justify-content: center;
+  position: relative;
+  top: 1vh;
+  font-weight: bold;
+  font-size: 20px;
+  /* left: 1vw; */
+  /* width: 150%; */
+  padding: 20px;
+}
+
+input {
+  /* display: flex; */
+  /* margin-left: 20%;
+    position: relative;
+    top: 40px;
+    */
+  font-weight: bold;
+  font-size: 20px;
+  left: 20px;
+}
+
+
+.img-title {
+    display: flex;
+    margin-left: 20%;
+    position: relative;
+    top: 9vh;
+    font-weight: bold;
+    font-size: 25px;
+    left: 2vw;
+  }
+
+.next-step {
+  background-color: darkgreen;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 11px;
+  position: relative;
+  top: 17rem;
+  left: 22rem;
+}
+
+.next-step2 {
+    background-color: darkgreen;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 11px;
+  margin: 50px;
+  position: relative;
+  top: 35rem;
+  
+}
+
+.previous-step {
+  background-color: darkgreen;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 11px;
+  margin: 50px;
+  position: relative;
+  top: 35rem;
+  
+}
+
+.previous-step2 {
+    background-color: darkgreen;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 11px;
+    margin: 50px;
+    position: relative;
+    top: 24rem;
+    
+  }
+
+  .mortgage {
+    display: flex;
+    margin-left: 20%;
+    position: relative;
+    top: 9vh;
+    font-weight: bold;
+    font-size: 25px;
+    left: 2vw;
+  }
+
+  .rent{
+    display: flex;
+    margin-left: 20%;
+    position: relative;
+    top: 9vh;
+    font-weight: bold;
+    font-size: 25px;
+    left: 2vw;
+  }
+
+  .mortgage-input{
+    display: flex;
+    margin-left: 20%;
+    position: relative;
+    top: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    left: 20px;
+    width: 60%;
+  }
+
+  .rent-input{
+    display: flex;
+    margin-left: 20%;
+    position: relative;
+    top: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    left: 20px;
+    width: 60%;
+  }
+
+.img-form {
+  width: 60%;
+  display: flex;
+  /* justify-content: center; */
+  margin-left: 20%;
+  position: relative;
+  top: 40px;
+}
+
+#complete {
+  background-color: lightgreen;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}

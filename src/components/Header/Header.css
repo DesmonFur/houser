@@ -1,0 +1,7 @@
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+    height: auto;
+  }

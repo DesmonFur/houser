@@ -1,0 +1,37 @@
+.dash-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+    font-size: 65px;
+    color: black;
+}
+
+.container {
+    /* display: flex; */
+    /* justify-content: center; */
+    background-color: gray;
+    flex-direction: column;
+    width: 70%;
+    position: relative;
+    left: 15%;
+}
+
+.add-property {
+    background-color: pink;
+    font-size: 32px;
+    padding: 10px;
+}
+
+.add-property:hover {
+    background-color: rgb(248, 184, 195);
+    font-size: 32px;
+    padding: 10px;
+ 
+}
+
+hr {
+    border: none;
+    background-color: #000;
+    color: #000;
+    height: 2px;
+}

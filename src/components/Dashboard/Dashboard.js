@@ -31,17 +31,21 @@ export class Dashboard extends Component {
     const { houses } = this.state;
 
     return (
-      <div>
+      <div className="container">
         <div className="dash-header">
-          <h1>Dashboard</h1>
+          <span>Dashboard
+
+          </span>
 
           <Link to="/wizard/step1">
-            <span>Add new property</span>
+            <span className='add-property'>Add new property</span>
           </Link>
+
         </div>
+       <hr/>
         {houses.map(house => (
           <House
-            key={house.id}
+          key={house.id}
             id={house.id}
             name={house.name}
             address={house.address}
